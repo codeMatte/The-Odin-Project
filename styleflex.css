@@ -1,0 +1,287 @@
+
+body {
+    margin: 0px;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif
+}
+
+header{
+    display: flex;
+    width:100%;
+    align-items: center;
+    justify-content:space-around;
+    flex-flow: row wrap;
+    gap:60%;
+    background-color: purple;
+}
+header ul {
+    display:flex;
+    gap:16px;
+}
+
+header .logo{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+li {
+    list-style: none;
+}
+
+li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+}
+
+li a:hover{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.logotyp{
+    width: 150px;
+    height: auto;
+}
+
+.logotyp:hover{
+    filter:brightness(130%);
+}
+.logo {
+    font-size: 24px;
+}
+
+.awesome {
+    background-image: linear-gradient(purple, blueviolet);
+    /* background-color: purple; */
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    padding-bottom: 80px;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif
+}
+
+.place-holder{
+    border: 2px solid black;
+    width: 400px;
+    height: 200px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.place-holder img{
+    width: 600px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.place-holder img:hover{
+    width: 650px;
+    height: 350px;
+    filter:contrast(130%);
+}
+
+.awesome-text{
+    width: 300px;
+}
+
+.awesome-text h1{
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.awesome-text p{
+    color: white;
+    font-size: 16px;
+}
+
+.button-first{
+    color: blueviolet;
+    background-color: chartreuse;
+    border-radius: 4px;
+    border-style: none;
+    width: 90px;
+    height: 25px;
+    font-size: bold;
+
+}
+
+.button-first a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.button-first:hover{
+    background-color: purple;
+    border: 3px solid black;
+    font-weight: bold;
+}
+
+.four-blocks{
+    
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 60px;
+}
+
+.four-blocks img{
+    height: 210px;
+    width: 210px;
+    border-radius: 20px;
+}
+
+.four-blocks img:hover{
+    filter: grayscale(80%);
+}
+.four-blocks h1{
+    display: flex;
+    justify-content: center ;
+}
+
+.blocks{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 100px;
+}
+
+.blocks div {
+    /* border: 2px solid black;
+    border-radius: 10px; */
+    height: 200px;
+    width: 200px;
+}
+.blocks-info{
+    color: black;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+   
+}
+
+.blocks-info p{
+    width: 180px;
+    height: 180px; 
+
+}
+
+/* CYTAT */
+.quote{
+    /* background-color: blueviolet; */
+    background-image: linear-gradient(purple, blueviolet);
+    display: flex;
+    justify-content: center;
+}
+.quote .buzz{
+    font-size: 72px;
+    font-weight: 300 ;
+}
+
+.quote .buzz:hover{
+    color: aqua;
+    font-weight: 300;
+}
+
+.quote p{
+    font-size: 22px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.quote .buzz::after{
+    content:'';
+    position:absolute;
+    width:100%;
+    transform:scaleX(0);
+    height:150px;
+    bottom: -10%;
+    left:0;
+    background-color:chartreuse;
+    opacity: 50%;
+    transform-origin:bottom right;
+    transition:transform 0.25s ease-out;
+}
+ .quote .buzz:hover::after{
+    transform:scaleX(1);
+    transform-origin:bottom left;
+}
+
+/* moon */
+.after{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.panel {
+    border-radius: 18px;
+    /* background-color: purple; */
+    background-image: linear-gradient(to left, purple, blueviolet);
+    width: 1000px;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    gap: 550px;
+}
+
+.panel p{
+    font-size: 24px;
+    font-weight:300;
+    display: flex;
+    align-items: center;
+    box-shadow: inset 0 0 0 0 #54b3d6;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+.panel p:hover{
+    box-shadow: inset 200px 0 0 0 #54b3d6;
+    color: chartreuse;
+    
+}
+.panel a{
+    
+    text-decoration: none;
+    font-weight: bold;
+    
+    
+}
+.panel .word-moon{
+    color: wheat;
+    font-weight: 300;
+}
+.moon{
+    background-color:chartreuse;
+    border: none;
+    border-radius: 12px;
+    height: 45px;
+    width: 100px;
+    display: flex;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+}
+.moon:hover{
+    background-color: aqua;
+    border: 2px solid white;
+    border-radius: 50%;
+    height: 100px;
+}
+
+.gif{
+    margin: 40px 40px;
+    display: flex;
+    justify-content: center;
+    
+}
+.gif img{
+    border-radius: 20px;
+}
+footer{
+    background-image: linear-gradient(purple, blueviolet);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
